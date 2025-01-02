@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Elixir bug related to the unexpected termination of Enum.each using Process.exit within a function.  The `bug.ex` file shows the buggy code.  The unexpected behavior is that the loop terminates without completing the iteration and printing the final message.  The `bugSolution.ex` file provides a corrected version.
